@@ -1,13 +1,20 @@
-html {
-	box-sizing: border-box;
+@import 'fonts';
+@import 'vars';
+@import 'global';
+
+
+
+.header{
+	&__top{
+		background-color: #EEF1F3 ;
+		min-height: 100px;
+	}
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
-.box {
-	display: flex;
-}
+.header__top-inner{}
+.header__logo
+.header__autorization{}-btn{}
+.header__user-link{}
+.header__alarmlink
+.header__envelope-link{}
+.header__cart-link{}
